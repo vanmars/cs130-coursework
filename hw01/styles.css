@@ -1,0 +1,183 @@
+/*
+VALUES = Playfulness, Creativity, Generosity
+COLOR PALETTE
+https://coolors.co/4464ad-ff6700-ce4257-8a84e2-85ffc7
+#4464AD - True Blue
+#FF6700 - Safety Orange
+#CE4257 - Brick Red
+#8A84E2 - Medium Purple
+#85FFC7 - Aquamarine
+
+FONT SELCTIONS
+h1:font-family: 'Righteous', cursive;
+h2 h3: font-family: 'Lato', sans-serif;
+p font-family: 'Montserrat', sans-serif;
+
+*/
+
+/*Global Structure*/
+* {
+  width: device-width;
+  box-sizing: border-box;
+  font-family:  'Montserrat', sans-serif;
+}
+
+/*/Fonts */
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 85px;
+  color: white;
+}
+
+h2 {font-family:'Lato', sans-serif;
+  font-size: 30px;
+  color: #4464AD;
+}
+
+h3 {font-family:'Lato', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: #FF6700;
+ }
+
+p {
+  font-size: 16px;
+  color: black ;
+}
+
+/* Links*/
+a:hover {
+  color: #FF6700; /*orange*/
+}
+
+a {
+  color:#85FFC7; /*aqua*/
+}
+
+nav a {
+  padding-left: 40px;
+}
+
+/* Global Grid */
+main {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(5, auto);
+   grid-template-areas:
+   "header header header"
+   "projects projects projects"
+   "work work work"
+   ". edu ."
+   "footer footer footer";
+}
+
+/* Header */
+header {
+  grid-area: header;
+  background-color: #8A84E2 ;
+  padding: 50px;
+  text-align: right;
+}
+
+.header p {
+  color: white;
+}
+
+/*Featured Projects*/
+.projects {
+  grid-area: projects;
+  background-color: white;
+  text-align: center;
+}
+
+.proj-content-wrap{
+  /* max-width: 800px; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+#projnav {
+  text-align: center;
+}
+
+#projnav + p {
+  text-align: center;
+}
+
+th{
+  width: 30%;
+  background-color: #4464AD;
+}
+td{
+  padding: 30px;
+  margin: 15px;
+  vertical-align: top;
+  background-color: #4464AD;
+  line-height: 1.5;
+}
+td p{
+  color: white;
+}
+tfoot a{
+  text-decoration: underline;
+}
+
+
+/********** WORK EXPERIENCE **********/
+.work {
+  grid-area: work;
+  background-color: #8A84E2;
+  text-align:center;
+}
+
+p.work-title {
+  color: white;
+}
+
+table.nested {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+table.nested td{
+  text-align: left;
+}
+
+li.bullet1 {
+  color: #85FFC7;
+  font-size: 14px;
+}
+
+li.bullet2 {
+  color: white;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+
+
+/* Education */
+.edu {
+  grid-area: edu;
+  background-color: white;
+  text-align: left;
+}
+
+#detail{
+  font-size: 13px;
+  color: #CE4257;
+}
+
+/* Footer */
+.footer {
+  grid-area: footer;
+  background-color: #CE4257;
+  text-align: right;
+  padding: 25px 50px;
+}
+
+.footnav {
+  color: white;
+}
