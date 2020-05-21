@@ -1,0 +1,38 @@
+body {
+  background-color: #C9F9FF;
+}
+
+header {
+  margin: auto;
+  width: 50%;
+}
+
+h1 {
+  font-family: fairwater-sailor-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  line-height: 12px;
+  margin-top: 60vh;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 30%;
+    background-color: #0CBABA;
+    color: #C9F9FF;
+    border-radius:20px;
+    border: #30C5FF;
+    /* padding: 7px 30px; */
+    font-family: hobeaux, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+}
+
+button:hover {
+  color: black;
+  border: 2px solid black;
+}

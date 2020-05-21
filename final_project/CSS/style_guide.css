@@ -1,0 +1,330 @@
+/*
+COLORS: https://coolors.co/30c5ff-0cbaba-c9f9ff-26c485-ffef9f
+Capri - #30C5FF
+Maximum Blue Green - #0CBABA
+Light Cyan - #C9F9FF
+Ocean Green - #26C485
+Yellow-Green - #ffef9f
+
+FONTS - Fairwater, Hobeaux, and Open Sans
+<link rel="stylesheet" href="https://use.typekit.net/zga1hzm.css">
+Fairwater Deco Serif Regular
+font-family: fairwater-deco-serif, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Fairwater Open Serif Regular
+font-family: fairwater-open-serif, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Fairwater Sailor Serif Regular
+font-family: fairwater-sailor-serif, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Fairwater Solid Serif Regular
+font-family: fairwater-solid-serif, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Hobeaux Light
+font-family: hobeaux, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Hobeaux Semibold
+font-family: hobeaux, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Hobeaux Black
+font-family: hobeaux, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Hobeaux Regular
+font-family: hobeaux, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Hobeaux Bold
+font-family: hobeaux, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: open-sans, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Open Sans Bold Italic
+font-family: open-sans, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Open Sans Extrabold
+font-family: open-sans, sans-serif;
+font-weight: 800;
+font-style: normal;
+
+Open Sans Extrabold Italic
+font-family: open-sans, sans-serif;
+font-weight: 800;
+font-style: italic;
+
+Open Sans Italic
+font-family: open-sans, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Open Sans Light
+font-family: open-sans, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Open Sans Light Italic
+font-family: open-sans, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Open Sans Regular
+font-family: open-sans, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Open Sans Semibold
+font-family: open-sans, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Open Sans Semibold Italic
+font-family: open-sans, sans-serif;
+font-weight: 600;
+font-style: italic;
+
+Open Sans Condensed Bold
+font-family: open-sans-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Open Sans Condensed Light
+font-family: open-sans-condensed, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Open Sans Condensed Light Italic
+font-family: open-sans-condensed, sans-serif;
+font-weight: 300;
+font-style: italic;
+*/
+
+
+body {
+    height:100%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+p {
+  margin-left: 20px;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header {
+    background-color: #C9F9FF;
+    padding: 10px;
+  }
+
+header h1 {
+  margin-left: 10px;
+  padding-bottom: 0;
+  font-family: fairwater-sailor-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+
+header h3 {
+  margin-left: 10px;
+  color: #0CBABA;
+  /* font-family: hobeaux, sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+}
+
+h2 {
+  color: #0CBABA;
+  padding-top: 25px;
+  padding-botoom: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-family: fairwater-deco-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.adjectives {
+  display: flex;
+}
+
+#fun {
+  /* font-family: fairwater-open-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: hobeaux, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+#coll {
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+#flex {
+  letter-spacing: 5px;
+
+}
+#naut {
+  font-family: fairwater-deco-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#trop{
+  font-family: hobeaux, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.swatches {
+  display: flex;
+}
+
+#capri {
+  background-color:#30C5FF;
+  padding: 50px;
+  border: double white 5px;
+  color:white;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#mbg {
+  background-color:#0CBABA;
+  padding: 50px;
+  border: double white 5px;
+}
+
+#cyan {
+  background-color:#C9F9FF;
+  padding: 50px;
+  border: double white 5px;
+}
+
+#ocean {
+  background-color:#26C485;
+  padding: 50px;
+  border: double white 5px;
+}
+#yellow {
+  background-color:#ffef9f;
+  padding: 50px;
+  border: double white 5px;
+}
+
+#button1{
+  background-color: #0CBABA;
+  color: #C9F9FF;
+  border-radius: 20px;
+  border: #0CBABA;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 7px 15px;
+  font-family: hobeaux, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#button2 {
+  background-color: #30C5FF;
+  color: white;
+  border-radius:20px;
+  border: #30C5FF;
+  margin-left: 20px;
+  padding: 7px 15px;
+  font-family: hobeaux, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.headings, .subheadings, .text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fonts p {
+  padding-right: 10px;
+}
+
+
+#f1 {
+  font-family: fairwater-sailor-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#f2 {
+  font-family: fairwater-solid-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#f3 {
+  font-family: fairwater-deco-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#f4 {
+  font-family: fairwater-open-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#f5{
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#f6 {
+  font-family: hobeaux, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#f7 {
+  font-family: hobeaux, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#f8 {
+  Open Sans Semibold
+  font-family: open-sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#f9 {
+  font-family: open-sans, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
