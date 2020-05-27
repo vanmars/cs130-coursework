@@ -63,7 +63,7 @@ body {
 }
 
 #turn-text {
-  color: #0CBABA;
+  color: white; /* #0CBABA*/
   font-family: hobeaux, sans-serif;
   font-weight: 400;
   font-style: normal;

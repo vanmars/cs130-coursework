@@ -14,7 +14,7 @@ h1 {
   font-size: 100px;
   text-align: center;
   line-height: 12px;
-  margin-top: 40vh;
+  margin-top: 30vh;
   color: #FFB997;
 }
 
@@ -24,7 +24,7 @@ h2 {
   font-weight: 700;
   font-style: normal;
   color: #F7717D;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h3 {
@@ -33,7 +33,7 @@ h3 {
   font-weight: 400;
   font-style: normal;
   color: #6DD3CE;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h4{
@@ -43,6 +43,7 @@ h4{
   text-align: center;
   font-size: 80px;
   color: #FFB997;
+  margin-top: 0;
 }
 
 button {
