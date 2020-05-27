@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Ahoy! Directions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/directions.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/zga1hzm.css">
+  </head>
+
+
+  <body id="container">
+    <aside id="aside">
+        <h1>Ahoy!</h1>
+    </aside>
+
+    <header id="header">
+        <div id="header-content">
+            <div id="divbtn">
+                <button onclick="document.location = 'board.html'" id="directions">Shipmate View</button>
+                <button onclick="document.location = 'islander_board.html'" id="view">Islander View</button>
+            </div>
+            <div id="icon-header">
+                <!-- <i class="fas fa-street-view" id="man"></i> -->
+                <p id="turn-text">DIRECTIONS</p>
+                <i class="fas fa-ship" id="ship"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article id="text-dir">
+            <h2 id="direction">Directions</h2>
+            <table>
+                <tr>
+                    <td id="isld-head">Islander</td>
+                    <td id="isld-dir">Lead your shipmates to you! Send a message to help them guess evidence that leads to your location. Your message can only be a single sentence long. Start with your planned topic sentence. If that doesn’t work, you’ll have to change up your message on your next turn! Be the first to get your shipmates to you, and you win the game!</td>
+                </tr>
+                <tr>
+                    <td id="ship-head">Shipmate</td>
+                    <td id="ship-dir">Click the evidence that best supports your stranded partner’s message. You get two guesses per turn. Choose incorrectly, however, and your turn ends. Be the first to find all of your stranded partner's evidence, and you win the game!</td>
+                </tr>
+        </article>
+    </main>
+    <script src="https://kit.fontawesome.com/602bbba189.js" crossorigin="anonymous"></script>
+  </body>
+
+</html>
