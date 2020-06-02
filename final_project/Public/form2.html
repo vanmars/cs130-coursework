@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ahoy! Outline Submission Form 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/form.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/zga1hzm.css">
+  </head>
+  <body>
+      <main>
+        <header>
+          <h1>Ahoy!</h1>
+          <h3>Stranded member of the <b style="color:#B2ABF2">PURPLE</b> team, enter your outline!</h3>
+        </header>
+
+        <section>
+          <form id="purple-form" action="form_action.php" method="post" enctype="multipart/form-data">
+            <div class="purple">
+              <label class="ital" for="pc1">Claim 1</label><br>
+            </div>
+              <input type: "text" id="pc1" name="pc1" required maxlength="400">
+                <br>
+                <br>
+              <label for="p1e1">Evidence 1</label> <br>
+              <textarea type="text" id="p1e1" name="p1e1" required maxlength="400"></textarea>
+                <br>
+                <br>
+              <label for="p1e2">Evidence 2</label><br>
+              <textarea type="text" id="p1e2" name="p1e2" required maxlength="400"></textarea>
+                <br>
+                <br>
+              <label for="p1cc">Close Call Evidence</label>
+              <label class="smaller">(evidence that somewhat supports your point, but not compellingly)</label><br>
+              <textarea type="text" id="p1cc" name="p1cc" required maxlength="400"></textarea>
+                <br>
+                <br>
+              <label for="p1rd">Red Herring Evidence</label>
+              <label class="smaller">(evidence that does not support your point, at all!)</label><br>
+              <textarea type="text" id="p1rd" name="p1rd" required maxlength="400"></textarea>
+                <br>
+                <br>
+                <br>
+
+            <div class="purple">
+              <label class="ital" for="pc2">Claim 2</label><br>
+            </div>
+              <input type: "text" id="pc2" name="pc2">
+                <br>
+                <br>
+              <label for="p2e1">Evidence 1</label>  <br>
+              <textarea type="text" id="p2e1" name="p2e1" required maxlength="400"></textarea>
+                <br>
+              <label for="p2e2">Evidence 2</label>  <br>
+              <textarea type="text" id="p2e2" name="p2e2"required maxlength="400"></textarea>
+                <br>
+                <br>
+              <label for="p2cc">Close Call Evidence</label>
+              <label class="smaller">(evidence that somewhat supports your point, but not compellingly)</label><br>
+              <textarea type="text" id="p2cc" name="p2cc" required maxlength="400"></textarea>
+                <br>
+                <br>
+              <label for="p2rd">Red Herring Evidence</label>
+              <label class="smaller">(evidence that does not support your point, at all!)</label><br>
+              <textarea type="text" id="p2rd" name="p2rd" required maxlength="400"></textarea>
+                <br>
+                <br>
+                <br>
+                <button type="submit" id="psubmit" onclick="document.location ='form_action.php'">Submit</button>
+          </form>
+        </section>
+      </main>
+  </body>
+</html>

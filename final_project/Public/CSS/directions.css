@@ -102,8 +102,8 @@ button {
 }
 
 button:hover {
-  color: #FFB997;
-  border: 2px solid #FFB997;
+  color: #F5FDC6;
+  border: 2px solid #F5FDC6;
 }
 
 /*********/
@@ -203,6 +203,11 @@ th,td {
   #view {
     margin-bottom: 20px;
   }
+}
+
+#boat {
+  height:50px;
+  width: 40px;
 }
 
 @media screen and (max-width: 600px) {

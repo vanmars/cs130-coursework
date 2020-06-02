@@ -1,0 +1,116 @@
+body {
+  background-color: #C9F9FF;
+  border: solid 75px white;
+  border-top: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #9CF6F6;
+  margin: 0 -75px;
+  padding: 20px 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: fairwater-sailor-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: left;
+  line-height: 12px;
+  color: #4464AD;
+  display: inline;
+}
+
+h3 {
+  font-family: hobeaux, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  display: inline;
+  text-align: right;
+  line-height: 50px;
+}
+
+section {
+  padding: 20px;
+}
+
+#tname {
+  font-family: fairwater-open-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+label {
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+input {
+  width: 50vw;
+}
+
+textarea {
+  width: 50vw;
+}
+
+.ital {
+  font-family: fairwater-open-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.smaller {
+  font-size: 12px;
+  font-style: italic;
+}
+
+button {
+      display: block;
+      align-items: center;
+      margin: auto;
+      padding: 5px 35px;
+      background-color: #4464AD;
+      color: #C9F9FF;
+      border-radius:20px;
+      border: #30C5FF;
+      font-family: hobeaux, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 16px;
+      margin-bottom: 10px;
+}
+
+button:hover {
+    color: #F5FDC6;
+    border: 2px solid #F5FDC6;
+}
+
+.yellow {
+    background-color: #F5FDC6;
+    margin: 0 -20px;
+}
+
+.purple {
+    background-color: #B2ABF2;
+    margin: 0 -20px;
+}
+
+/**********************/
+/* Web Responsiveness */
+/**********************/
+@media screen and (max-width: 800px) {
+  header {
+    flex-direction: column;
+  }
+h1, h3 {
+    text-align: center;
+  }
+}
