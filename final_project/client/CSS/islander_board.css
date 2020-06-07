@@ -1,6 +1,4 @@
-/********/
 /*Layout*/
-/********/
 body {
   display: grid;
   grid-template-columns: 150px auto;
@@ -28,19 +26,13 @@ body {
   overflow:hidden;
 }
 
-main {
+#board {
   grid-area: main;
   background-color: #C9F9FF;
-  margin: 0;
-  padding-left: 50px;
-  padding-right: 50px;
-
-
 }
 
-/********/
-/*Header*/
-/********/
+
+/* Header */
 #header-content {
   display: flex;
   flex-direction: row;
@@ -68,21 +60,20 @@ main {
 }
 
 #turn-text {
-  color: #9CF6F6;
+  color: white;
   font-family: hobeaux, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 28px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 #ship {
   color: #4464AD;
   font-size: 40px;
 }
-/*********/
+
 /*Buttons*/
-/*********/
 button {
     display: block;
     align-items: center;
@@ -106,9 +97,7 @@ button:hover {
   border: 2px solid #F5FDC6;
 }
 
-/*********/
 /* ASIDE */
-/*********/
 aside > h1 {
   font-family: fairwater-sailor-serif, sans-serif;
   font-weight: 400;
@@ -119,64 +108,78 @@ aside > h1 {
   padding-left: 130px;
 }
 
-/******/
-/*Main*/
-/******/
+/* Main */
 
-table, th, td {
-  border: 5px solid #4464AD;
+#board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 5px;
+  height: calc(100vh - 110px);
+  overflow-y: scroll;
 }
 
-th,td {
-    padding: 10px 10px 30px 10px;
+ .info-card {
+  width: 25%;
 }
 
-#direction {
-  color: #FFB997;
-  font-family: hobeaux, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 50px;
+.info-card > div {
+  background-color: white;
+  border-radius: 20px;
+  margin: 5px;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-#isld-head {
-  color: #FFB997;
-  font-family: open-sans, sans-serif;
-  font-weight: 600;
-  font-style: italic;
-  font-size: 20px;
-}
 
-#isld-dir {
-  font-family: open-sans, sans-serif;
+.info-card p {
+  font-size: 14px;
+  font-family: open-sans-condensed, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 5px;
 }
 
-#ship-head {
-  color: #FFB997;
-  font-family: open-sans, sans-serif;
-  font-weight: 600;
-  font-style: italic;
-  font-size: 20px;
+/* Card Colors */
+.info-card > .yellow {
+  background-color: #FFEF9F;
 }
 
-#ship-dir {
-  font-family: open-sans, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px;
+.info-card > .purple {
+  background-color: #B2ABF2;
 }
 
-/**********************/
+.info-card > .red {
+  background-color: #F7717D;
+}
+
+.info-card > .red {
+  background-color: #F7717D;
+}
+
+.info-card > .ccyellow {
+  background-color: #FAF6E2;
+}
+
+.info-card > .ccpurple {
+  background-color: #E9E7F7;
+}
+
+
 /* Web Responsiveness */
-/**********************/
 @media screen and (max-width: 1100px) {
   body {
     grid-template-columns: 125px auto;
     grid-template-rows: 75px auto;
+  }
+  aside > h1 {
+    font-size: 80px;
   }
   #view {
     margin-bottom: 20px;

@@ -1,0 +1,34 @@
+Database Table Names
+
+// users
+user_id
+   username
+   password
+
+//outlines
+outline_id
+   user_id
+   title
+   evidence_1.1
+   evidence_1.2
+   close_call_1
+   red_herring_1
+   evidence_2.1
+   evidence_2.2
+   close_call_2
+   red_herring_2
+
+
+//boards
+board_id
+   outline_id_1
+   outline_id_2
+
+
+To-Do items
+Users and Outlines and Boards
+1. Figure out how to authenticate users
+2. Once users are authenticated, link to individual user's user page.
+3. Fetch only outlines that contain the user's id.
+4. Figure out how to save previous boards and display them on user page.
+5. Figure out how to fetch individual outline data to create new game boards and answer key boards, where outline data is randomly placed around the board.

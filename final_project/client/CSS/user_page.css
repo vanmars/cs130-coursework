@@ -1,0 +1,80 @@
+/* General Layout */
+body {
+  background-color: white;
+  margin: 0;
+}
+
+/* Heading */
+header {
+  background-color: #C9F9FF;
+  padding: 25px 20px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: fairwater-sailor-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 85px;
+  text-align: center;
+  line-height: 12px;
+  color: #4464AD;
+}
+
+#userDiv {
+  color: #4464AD;
+  display: flex;
+  flex-direction: row;
+}
+
+i {
+  padding-right: 15px;
+  line-height: 5px;
+  font-size: 40px;
+}
+
+#username {
+  line-height: 5px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+/* Outline Section */
+section {
+  margin: 20px;
+}
+
+h2 {
+  font-family: hobeaux, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #4464AD;
+}
+
+#outBtnDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+    display: block;
+    align-items: center;
+    margin-right: 5px;
+    padding: 5px 35px;
+    color: #C9F9FF;
+    background-color:  #4464AD;
+    border-radius:20px;
+    border: #30C5FF;
+    font-family: hobeaux, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+button:hover {
+  color: #F5FDC6;
+  border: 2px solid #C9F9FF;
+}

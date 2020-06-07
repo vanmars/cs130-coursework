@@ -39,22 +39,17 @@ function test_input($data) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <title>Ahoy! Shipmate Board</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/board.css"/>
     <link rel="stylesheet" href="https://use.typekit.net/zga1hzm.css">
-    <script type="text/javascript" src="JS/board.js"></script>
   </head>
-
-
   <body id="container">
     <aside id="aside">
         <h1>Ahoy!</h1>
     </aside>
-
     <header id="header">
         <div id="header-content">
             <div id="divbtn">
@@ -63,11 +58,10 @@ function test_input($data) {
             </div>
             <div id="icon-header">
                 <p id="turn-text">YELLOW's Turn</p>
-                <img id="boat" src="../1x/asset1.png">
+                <img id="boat" src="../img/asset1.png">
             </div>
           </div>
     </header>
-
     <main>
         <article id="board">
             <section class="info-card">
@@ -152,5 +146,6 @@ function test_input($data) {
             </section>
         </article>
     </main>
+    <script type="text/javascript" src="JS/board.js"></script>
   </body>
 </html>

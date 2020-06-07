@@ -29,10 +29,26 @@ h4{
   margin-top: 0;
 }
 
+#btndiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#signup {
+  margin: 0 10px;
+}
+
+#login {
+  margin-right: 10px;
+}
+
 button {
     display: block;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
+    margin-bottom: 5px;
     padding: 5px 35px;
     background-color: #F5FDC6;
     color:  #4464AD;
@@ -41,12 +57,17 @@ button {
     font-family: hobeaux, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 button:hover {
   color: #4464AD;
   border: 2px solid #4464AD;
+}
+
+#userSubmit {
+  /* align-items: center; */
+  width: 150px;
 }
 
 #imgdiv {
@@ -74,4 +95,11 @@ p {
     font-style: italic;
     text-align: center;
     font-size: 18px;
+}
+
+#formdiv {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ahoy! User Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/user_page.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/zga1hzm.css">
+    <script src="https://kit.fontawesome.com/602bbba189.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <main>
+        <header>
+          <h1>Ahoy!</h1>
+          <div id="userDiv">
+            <i class="fas fa-user"></i>
+            <p id="username">ralph</p>
+          </div>
+        </header>
+<!-- Outlines Sections -->
+        <section>
+          <article id="outlinesArt">
+            <h2>My Outlines!</h2>
+              <div id="outBtnDiv">
+                <button id="get-outlines">Get</button>
+                <button id="create-outline">Create</button>
+              </div>
+              <pre id="outlineResults"></pre>
+              <ul id="outlines">
+                <li>Lord of the Flies</li>
+                <li>Great Expectations</li>
+                <p>* The above list items will eventually be links that take you to the individual user's specific outline. These will replace the 'Get' button above, which currently shows all outlines in the whole database.</p>
+              </ul>
+          </article><br><br>
+<!-- Game Boards Sections -->
+          <article id="boardsArt">
+            <h2>My Game Boards!</h2>
+              <div id="outBtnDiv">
+                <button id="get-boards">Get</button>
+                <button id="create-board">Create</button>
+              </div>
+              <pre id="boardResults"></pre>
+              <ul id="boards">
+                <li><a href='board.html'>Lord of the Flies</a></li>
+              </ul>
+              <p>*Same case as above. The 'Get' button lists all boards in the database. This will eventually be replaced by links below that take the user to past game boards. For now, the link above is hard coded to a game board.</p>
+            </article>
+        </section>
+      </main>
+      <script type="text/javascript" src="JS/user_page.js"></script>
+  </body>
+</html>

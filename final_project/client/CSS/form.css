@@ -1,3 +1,4 @@
+/* Layout */
 body {
   background-color: #C9F9FF;
   border: solid 75px white;
@@ -5,6 +6,7 @@ body {
   margin: 0;
 }
 
+/* Header */
 header {
   background-color: #9CF6F6;
   margin: 0 -75px;
@@ -36,6 +38,7 @@ h3 {
   line-height: 50px;
 }
 
+/* Form */
 section {
   padding: 20px;
 }
@@ -103,9 +106,7 @@ button:hover {
     margin: 0 -20px;
 }
 
-/**********************/
 /* Web Responsiveness */
-/**********************/
 @media screen and (max-width: 800px) {
   header {
     flex-direction: column;
